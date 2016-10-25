@@ -1,5 +1,7 @@
 # RIPECLINER
 
+[![Gem Version](https://badge.fury.io/rb/ripecliner.svg)](https://badge.fury.io/rb/ripecliner)
+
 This is CLI Downloader & Transformer for RIPE Routing Information Service
 
 - `ripecliner` can download a RIPE BGP router dump
