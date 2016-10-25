@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "ripecliner"
+
+begin
+  RIPECLINER::CLI.new ARGV
+rescue ArgumentError => e
+  puts "ERROR: #{e.message}\n\n---"
+  RIPECLINER::CLI.print_help
+end
